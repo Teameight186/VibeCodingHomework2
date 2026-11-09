@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 24px 16px;
+    background-color: #eef2f7;
+    color: #17233b;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 0 12px;
+}
+
+p {
+    margin: 0 0 12px;
+}
+
+button {
+    padding: 8px 14px;
+    border: 1px solid #214f94;
+    border-radius: 6px;
+    background-color: #214f94;
+    color: #ffffff;
+}
+
+.event-card,
+.service-form {
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.service-form {
+    margin: 16px 0;
+}
+
+.service-form div {
+    margin-bottom: 8px;
+}
+
+.service-form button {
+    margin-top: 8px;
+}
+
+#program,
+#result,
+#report-json {
+    margin-top: 12px;
+}
+
+#choice-error,
+#data-error {
+    margin-top: 12px;
+    color: #a32323;
+}
+
+#report-json {
+    font-family: monospace;
+    overflow-wrap: anywhere;
+}
+
+
